@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exer6 {
+public class Aula2exer6 {
 
     public static void main(String[] args) {
         
