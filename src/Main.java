@@ -11,7 +11,6 @@ public class Main {
 		double notaDoFilme = 8.1;
 		System.out.println("A nota do filme no IMDB: " + notaDoFilme);
 		
-		//Média calculada pelas 3 notas de testes
 		double media = (9.8 + 6.3 + 8.0) /3;
 		System.out.println(media);
 		String sinopse; 
