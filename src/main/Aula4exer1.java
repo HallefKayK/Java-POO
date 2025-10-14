@@ -1,3 +1,4 @@
+package main;
 import java.util.Scanner;
 
 public class Aula4exer1 {

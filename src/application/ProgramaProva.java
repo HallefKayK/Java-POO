@@ -12,7 +12,7 @@ public class ProgramaProva {
         System.out.println("Enter account data:");
         System.out.print("Account number: ");
         int number = sc.nextInt();
-        sc.nextLine(); // consumir quebra de linha
+        sc.nextLine();
         System.out.print("Account holder: ");
         String holder = sc.nextLine();
         System.out.print("Initial balance: ");
