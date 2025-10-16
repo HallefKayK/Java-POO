@@ -7,7 +7,8 @@ import java.util.List;
 
 import entities.enums.OrderStatus;
 
-public class Order {
+public class Ordem {
+
     private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
     private Date moment;
@@ -16,7 +17,7 @@ public class Order {
     private Client client;
     private List<OrderItem> items = new ArrayList<>();
 
-    public Order(Date moment, OrderStatus status, Client client) {
+    public Ordem(Date moment, OrderStatus status, Client client) {
         this.moment = moment;
         this.status = status;
         this.client = client;
